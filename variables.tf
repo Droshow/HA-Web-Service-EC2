@@ -32,10 +32,9 @@ variable "min_size" {
     type = number
     default = 1
 }
-variable "var.lb_port" {
+variable "lb_port" {
     type = number
     default = 80
-
 }
 
 

@@ -10,9 +10,9 @@ terraform {
 
 }
 provider "aws" {
-    region = "eu-central-1"
-    profile = "SolutionArchitect"
-    # default_tags {
-    #   tags = var.tags
-    # }
+  region  = "eu-central-1"
+  profile = "SolutionArchitect"
+  # default_tags {
+  #   tags = var.tags
+  # }
 }

@@ -6,13 +6,12 @@ terraform {
     }
   }
 
-  required_version = ">= 0.13.1"
+  required_version = ">= 1.0"
 
 }
+#provide your own creds
 provider "aws" {
   region  = "eu-central-1"
   profile = "SolutionArchitect"
-  # default_tags {
-  #   tags = var.tags
-  # }
+
 }

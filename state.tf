@@ -1,3 +1,4 @@
+#modify to match your own bucket & accounts
 terraform {
   backend "s3" {
     bucket  = "state-bucket-ec2-instance"

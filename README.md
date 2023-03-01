@@ -15,10 +15,9 @@ As a product owner
 <h2> Overview: </h2>
 
 In result we have a simple nginx webservice running on port 80 on two EC2 instances deployed in private subnets in two availability zones - 
-The fact that they are deployed within private subnets is reducing the accessibility and potentialsurface for an attack from the internet. 
+The fact that they are deployed within private subnets is reducing the accessibility and potential surface for an attack from the internet. 
 
-The instances are protected behind NAT Gateway, which makes sure the instances are protected from the outside, but still able to communicate with the outside 
-world from within.
+The instances are protected behind NAT Gateway, which makes sure the instances are protected from the outside, but still able to communicate with the outside world from within.
 
 There is application Load Balancer that provides load balancing in case one of the instances.
 

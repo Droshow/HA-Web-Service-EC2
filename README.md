@@ -35,3 +35,8 @@ Install SSM plugin manager https://docs.aws.amazon.com/systems-manager/latest/us
  
  - Adding SSL https on LoadBalancer https://aws.amazon.com/premiumsupport/knowledge-center/associate-acm-certificate-alb-nlb/
  - WAF https://aws.amazon.com/blogs/aws/aws-web-application-firewall-waf-for-application-load-balancers/
+ 
+ <h3>Diagram Overview </h3>
+ 
+ ![Screenshot](Blank diagram.jpeg)
+

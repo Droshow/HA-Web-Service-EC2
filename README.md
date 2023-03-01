@@ -38,5 +38,5 @@ Install SSM plugin manager https://docs.aws.amazon.com/systems-manager/latest/us
  
  <h3>Diagram Overview </h3>
  
- ![Screenshot](Blank diagram.jpeg)
+<img src="Blank diagram.jpeg" />
 

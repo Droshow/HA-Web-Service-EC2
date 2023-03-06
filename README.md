@@ -19,7 +19,7 @@ The fact that they are deployed within private subnets is reducing the accessibi
 
 The instances are protected behind NAT Gateway, which makes sure the instances are protected from the outside, but still able to communicate with the outside world from within.
 
-There is application Load Balancer that provides load balancing in case one of the instances.
+There is application Load Balancer that provides load balancing in case one of the instances crash.
 
 Instances are created and managed by autoscalling group engined by launch configuration.
 
